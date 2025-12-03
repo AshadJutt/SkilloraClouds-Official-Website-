@@ -133,42 +133,424 @@
         </div>
     </div>
 
-    <div class="vps_plans py-5">
+    <!-- Game Plans -->
+    <div class="game_plans py-5">
         <div class="container-fluid container-custom">
-            <div class="card">
-                <div class="card-body">
-                    <input type="range" min="1" max="6" value="2" step="1" class="slider my-4" id="rangeSelector">
-                    <div class="row d-flex justify-content-between">
-                        <div class="col-lg-9 d-flex align-items-center">
-                            <div class="row w-100">
-                                <div class="col-sm-3 text-center">
-                                    <span class="value" id="coreValue">2 vCore</span>
-                                    <span class="label">AMD EPYC 7B13</span>
-                                </div>
-                                <div class="col-sm-3 text-center">
-                                    <span class="value" id="ramValue">2GB</span>
-                                    <span class="label">DDR4 RAM</span>
-                                </div>
-                                <div class="col-sm-3 text-center">
-                                    <span class="value" id="ssdValue">40GB</span>
-                                    <span class="label">NVMe SSD Storage</span>
-                                </div>
-                                <div class="col-sm-3 text-center">
-                                    <span class="value" id="bwValue">Unlimited</span>
-                                    <span class="label">Bandwith</span>
+            <div class="site_title">
+                <h2>Our Minecraft Server Plans</h2>
+            </div>
+            <div class="tab-content">
+                <!-- Budget Plans -->
+                <div id="budget" class="tab-pane active">
+                    <div class="row">
+                        <!-- Plans One -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h2 class="mb-4">Dirt Plan</h2>
+                                    <div class="card-value mb-4 text-center">
+                                        <span>80₹ Per Month</span>
+                                    </div>
+                                    <h3 class="text-center mb-4">4GB</h3>
+                                    <div class="row mb-4">
+                                        <div class="col-sm-6">
+                                            <p>10gb SSD Storage <span>NVMe</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Fast Support <span>24 / 7</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Processor <span>Intel Xeon Platinum</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Instant <span>Setup</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="minecraft.html" class="btn">Order now</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3">
-                            <div class="card card_total">
+                        <!-- Plans Two -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
                                 <div class="card-body">
-                                    <div class="d-flex justify-content-between">
-                                        <div class="price me-3">
-                                            <span class="value">&dollar;<span id="priceValue">17</span></span>
-                                            <span class="label">Monthly</span>
+                                    <h2 class="mb-4">Coal Plan</h2>
+                                    <div class="card-value mb-4 text-center">
+                                        <span>160₹ Per Month</span>
+                                    </div>
+                                    <h3 class="text-center mb-4">8GB</h3>
+                                    <div class="row mb-4">
+                                        <div class="col-sm-6">
+                                            <p>20gb SSD Storage <span>NVMe</span></p>
                                         </div>
-                                        <div class="d-flex align-items-center">
-                                            <a class="btn btn-primary" id="buyLink" href="https://discord.com/invite/gNjawjWkUz">Order Now - (Discord)</a>
+                                        <div class="col-sm-6">
+                                            <p>Fast Support <span>24 / 7</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Processor <span>Intel Xeon Platinum</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Instant <span>Setup</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="minecraft.html" class="btn">Order now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Plans Three -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h2 class="mb-4">Redstone Plan</h2>
+                                    <div class="card-value mb-4 text-center">
+                                        <span>240₹ Per Month</span>
+                                    </div>
+                                    <h3 class="text-center mb-4">10GB</h3>
+                                    <div class="row mb-4">
+                                        <div class="col-sm-6">
+                                            <p>25 SSD Storage <span>NVMe</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Fast Support <span>24 / 7</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Processor <span>Intel Xeon Platinum</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Instant <span>Setup</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="minecraft.html" class="btn">Order now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Plans Four -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h2 class="mb-4">Gold</h2>
+                                    <div class="card-value mb-4 text-center">
+                                        <span>320₹ Per Month</span>
+                                    </div>
+                                    <h3 class="text-center mb-4">12GB</h3>
+                                    <div class="row mb-4">
+                                        <div class="col-sm-6">
+                                            <p>30gb SSD Storage <span>NVMe</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Fast Support <span>24 / 7</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Processor <span>Intel Xeon Platinum</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Instant <span>Setup</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="minecraft.html" class="btn">Order now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Plans Five -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h2 class="mb-4">Diamond Plan</h2>
+                                    <div class="card-value mb-4 text-center">
+                                        <span>400₹ Per Month</span>
+                                    </div>
+                                    <h3 class="text-center mb-4">16GB</h3>
+                                    <div class="row mb-4">
+                                        <div class="col-sm-6">
+                                            <p>40gb SSD Storage <span>NVMe</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Fast Support <span>24 / 7</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Processor <span>Intel Xeon Platinum</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Instant <span>Setup</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="minecraft.html" class="btn">Order now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Plans Six -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h2 class="mb-4">Netherite Plan</h2>
+                                    <div class="card-value mb-4 text-center">
+                                        <span>480₹ Per Month</span>
+                                    </div>
+                                    <h3 class="text-center mb-4">34GB</h3>
+                                    <div class="row mb-4">
+                                        <div class="col-sm-6">
+                                            <p>480 SSD Storage <span>NVMe</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Fast Support <span>24 / 7</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Processor <span>Intel Xeon Platinum</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Instant <span>Setup</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="minecraft.html" class="btn">Order now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <div class="container-fluid container-node">
+                                        <div class="row d-flex justify-content-between">
+                                            <div class="col-lg-4 col-md-4 d-flex align-items-center">
+                                                <div class="d-flex align-items-center me-auto new-sale-left">
+                                                    <span class="unlimited-text">Unlimited Minecraft</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 d-flex align-items-center">
+                                                <div class="d-flex align-items-center mx-auto new-sale-center">
+                                                    <div class="text-center">
+                                                        <h6 class="price-text my-0">
+                                                            <span class="price text-light fw-bold title-dark h1 mb-0">+100&dollar;</span>
+                                                            <span class="h7 align-self-end mb-1">/ first month</span>
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 d-flex justify-content-between">
+                                                <div class="d-flex align-items-center ms-auto new-sale-right">
+                                                    <a href="https://discord.com/invite/gNjawjWkUz" class="btn">Contact us - (Discord)</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Premium Plans -->
+                <div id="premium" class="tab-pane">
+                    <div class="row">
+                        <!-- Plans One -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h2 class="mb-4">Zombie Plan</h2>
+                                    <div class="card-value mb-4 text-center">
+                                        <span>100₹ Per Month</span>
+                                    </div>
+                                    <h3 class="text-center mb-4">2GB</h3>
+                                    <div class="row mb-4">
+                                        <div class="col-sm-6">
+                                            <p>10gb SSD Storage <span>NVMe</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Fast Support <span>24 / 7</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Processor <span>AMD EPYC 7B13</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Instant <span>Setup</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="minecraft.html" class="btn">Order now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Plans Two -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h2 class="mb-4">Skeleton Plan</h2>
+                                    <div class="card-value mb-4 text-center">
+                                        <span>200₹ Per Month</span>
+                                    </div>
+                                    <h3 class="text-center mb-4">4GB</h3>
+                                    <div class="row mb-4">
+                                        <div class="col-sm-6">
+                                            <p>20gb SSD Storage <span>NVMe</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Fast Support <span>24 / 7</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Processor <span>AMD EPYC 7B13</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Instant <span>Setup</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="minecraft.html" class="btn">Order now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Plans Three -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h2 class="mb-4">Creeper Plan</h2>
+                                    <div class="card-value mb-4 text-center">
+                                        <span>300₹ Per Month</span>
+                                    </div>
+                                    <h3 class="text-center mb-4">8GB</h3>
+                                    <div class="row mb-4">
+                                        <div class="col-sm-6">
+                                            <p>30gb SSD Storage <span>NVMe</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Fast Support <span>24 / 7</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Processor <span>AMD EPYC 7B13</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Instant <span>Setup</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="minecraft.html" class="btn">Order now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Plans Four -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h2 class="mb-4">Enderman Plan</h2>
+                                    <div class="card-value mb-4 text-center">
+                                        <span>400₹ Per Month</span>
+                                    </div>
+                                    <h3 class="text-center mb-4">12GB</h3>
+                                    <div class="row mb-4">
+                                        <div class="col-sm-6">
+                                            <p>40gb SSD Storage <span>NVMe</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Fast Support <span>24 / 7</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Processor <span>AMD EPYC 7B13</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Instant <span>Setup</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="minecraft.html" class="btn">Order now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Plans Five -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h2 class="mb-4">Husk Plan</h2>
+                                    <div class="card-value mb-4 text-center">
+                                        <span>500₹ Per Month</span>
+                                    </div>
+                                    <h3 class="text-center mb-4">24GB</h3>
+                                    <div class="row mb-4">
+                                        <div class="col-sm-6">
+                                            <p>60gb SSD Storage <span>NVMe</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Fast Support <span>24 / 7</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Processor <span>AMD EPYC 7B13</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Instant <span>Setup</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="minecraft.html" class="btn">Order now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Plans Six -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h2 class="mb-4">Piglin Plan</h2>
+                                    <div class="card-value mb-4 text-center">
+                                        <span>600₹ Per Month</span>
+                                    </div>
+                                    <h3 class="text-center mb-4">48 gb</h3>
+                                    <div class="row mb-4">
+                                        <div class="col-sm-6">
+                                            <p>100gb SSD Storage <span>NVMe</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Fast Support <span>24 / 7</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Processor <span>AMD EPYC 7B13</span></p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <p>Instant <span>Setup</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="minecraft.html" class="btn">Order now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <div class="container-fluid container-node">
+                                        <div class="row d-flex justify-content-between">
+                                            <div class="col-lg-4 col-md-4 d-flex align-items-center">
+                                                <div class="d-flex align-items-center me-auto new-sale-left">
+                                                    <span class="unlimited-text">Unlimited Premium Minecraft</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 d-flex align-items-center">
+                                                <div class="d-flex align-items-center mx-auto new-sale-center">
+                                                    <div class="text-center">
+                                                        <h6 class="price-text my-0">
+                                                            <span class="price text-light fw-bold title-dark h1 mb-0">+130&dollar;</span>
+                                                            <span class="h7 align-self-end mb-1">/ first month</span>
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 d-flex justify-content-between">
+                                                <div class="d-flex align-items-center ms-auto new-sale-right">
+                                                    <a href="https://discord.com/invite/gNjawjWkUz" class="btn">Contact us - (Discord)</a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -177,6 +559,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="row">
                 <div class="col-lg-7 mx-auto">
                     <p class="text-center need_help py-3">Need help choosing the right plan for your needs? Just get in touch with us, we will be more than happy to help. </p>
